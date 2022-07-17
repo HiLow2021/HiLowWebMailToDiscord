@@ -22,6 +22,7 @@ function hook() {
       Logger.log(subject);
       const payload = {
         username: subject,
+        content: '@everyone',
         embeds: [{
           title: subject,
           url: 'https://mail.google.com/mail/u/0/#all/' + message.getId(),
